@@ -1,0 +1,95 @@
+body {
+    color:black;
+    font-size: 18px;
+}
+
+nav {
+    background: lightgray;
+}
+.nav {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #333;
+    color:white
+}
+
+.left-col {
+    display: block;
+    height: 700px;
+    width:29%;
+    float:left;
+    background-color:aliceblue;
+}
+
+.right-col {
+    display: block;
+    height: 700px;
+    width:71%;
+    float:right;
+    background-color:aliceblue;
+}
+
+.topper {
+    display: block;
+    background-color: aliceblue;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+
+.bottomer {
+    display: block;
+    background-color: aliceblue;
+    height: auto;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    line-height: 23px;
+}
+.intro {
+    display: block;
+    padding:30px;
+    height: 250px;
+    width: fit-content;
+}
+.pfp {
+    background-image: url("/images/pfp.jpg");
+    background-size: cover;
+    overflow: hidden;
+    width:150px;
+    height: 200px;
+    float: left;
+    background-color: blueviolet;
+    margin:0 30px;
+}
+
+.gallery {
+    text-align: center;
+    padding: 30px;
+}
+
+.pic-1 {
+    display: inline-block;
+    background-image: url("/images/pic1.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+}
+
+.pic-2 {
+    display: inline-block;
+    background-image: url("/images/pic2.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+}
+.pic-3 {
+    display: inline-block;
+    background-image: url("/images/pic3.JPG");
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+}
